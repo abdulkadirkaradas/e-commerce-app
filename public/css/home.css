@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+body {
+    display: block !important;
+}
+
+.menu-container {
+    width: 100%;
+    min-height: 75px;
+    background-color: white;
+    /*margin-top: 10px; /* Kaldırılacak */
+}
+
+.menu-container .menu ul, .menu-container .menu, .menu-container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.menu-container .menu ul {
+    margin: 0;
+}
+
+.menu-container .menu ul li {
+    list-style-type: none;
+    margin-right: 15px;
+    font: normal normal normal 25px/20px "Dongle";
+    cursor: pointer;
+}
