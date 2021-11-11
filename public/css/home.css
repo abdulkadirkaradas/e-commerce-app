@@ -8,20 +8,26 @@ body {
     width: 100%;
     min-height: 75px;
     background-color: white;
-    /*margin-top: 10px; /* Kaldırılacak */
 }
 
-.menu-container .menu ul, .menu-container .menu, .menu-container {
+.menu-container .menu {
+    width: 50%;
+}
+
+.menu-container .menu, .menu-container .menu ul, .menu-container {
     justify-content: center;
     align-items: center;
     display: flex;
 }
 
 .menu-container .menu ul {
+    width: 100%;
+    min-width: 100%;
     margin: 0;
 }
 
 .menu-container .menu ul li {
+    width: 16.66%;
     list-style-type: none;
     margin-right: 15px;
     font: normal normal normal 25px/20px "Dongle";

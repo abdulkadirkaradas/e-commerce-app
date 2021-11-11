@@ -29,7 +29,6 @@
                 'Access-Control-Allow-Credentials' : 'true',
                 'Access-Control-Max-Age' : '10800'
             },
-            async: false,
             success: function(data) {
                 if(data.status == "0_SUCCESS") {
                     $.each(data.data, function(i, val){
